@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Actor">
+      <UniqueIdentifier>{8ce0b1a4-6245-423b-a3b4-caa24b1d1f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Actor\Camera">
+      <UniqueIdentifier>{f56d1f08-8b9f-4641-84b3-16c87cc44074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Graphic">
+      <UniqueIdentifier>{5e296400-0b4c-4227-9069-9622a9670fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Graphic\Texture">
+      <UniqueIdentifier>{4790f992-daea-4a5e-bda7-8dee919baa40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Graphic\Rgr">
+      <UniqueIdentifier>{8ccc6861-537c-4edd-98b2-1ce1b5e47b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Graphic\RgrA">
+      <UniqueIdentifier>{eb2cbfac-81e4-4c7c-a7b3-228eb53d5080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Graphic\Shader">
+      <UniqueIdentifier>{07e43bf9-343c-4287-b25a-efdafe0a0c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Audio">
+      <UniqueIdentifier>{70611509-a29a-4c9b-8f92-88de8a217119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Math">
+      <UniqueIdentifier>{e4038757-6c46-41e6-baf8-5e3340142887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Other">
+      <UniqueIdentifier>{8dace3e1-e3d8-4de9-951a-48ea381a19fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\World">
+      <UniqueIdentifier>{be4594a9-1633-4912-9baa-a46c97f2982b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{d78f35db-572f-4f7b-898c-aa32b2a9b072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Input">
+      <UniqueIdentifier>{d223fa48-461f-454d-a824-1997190ca41e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Graphic\Shape">
+      <UniqueIdentifier>{9d0fce8c-7dc2-44c9-9454-3d17b0b32085}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Actor\ID.h">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\Player.h">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\Camera\Camera.h">
+      <Filter>ソース ファイル\Actor\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Graphic\Shader\LoadTexture.h">
+      <Filter>ソース ファイル\Graphic\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Graphic\Shader\Shader.h">
+      <Filter>ソース ファイル\Graphic\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Graphic\Animation\Animation.h">
+      <Filter>ソース ファイル\Graphic\RgrA</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Graphic\Animation\AnimUser.h">
+      <Filter>ソース ファイル\Graphic\RgrA</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Graphic\Animation\RgrALoader.h">
+      <Filter>ソース ファイル\Graphic\RgrA</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Graphic\Rgr\Mesh.h">
+      <Filter>ソース ファイル\Graphic\Rgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Graphic\Rgr\MeshUser.h">
+      <Filter>ソース ファイル\Graphic\Rgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Graphic\Rgr\RgrLoader.h">
+      <Filter>ソース ファイル\Graphic\Rgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Graphic\Texture\Texture.h">
+      <Filter>ソース ファイル\Graphic\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Graphic\Graphic.h">
+      <Filter>ソース ファイル\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Audio\Audio.h">
+      <Filter>ソース ファイル\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Audio\Sound.h">
+      <Filter>ソース ファイル\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Math\Converter.h">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Math\MathUtility.h">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Math\Matrix4.h">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Math\MatrixUtility.h">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Math\Quaternion.h">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Math\Vector2.h">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Math\Vector2Utility.h">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Math\Vector3.h">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Math\Vector3Utility.h">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Other\D3D11User.h">
+      <Filter>ソース ファイル\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Other\Device.h">
+      <Filter>ソース ファイル\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Other\DX11User.h">
+      <Filter>ソース ファイル\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\scene\GamePlayScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\scene\IScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\scene\ISceneMediator.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\scene\IScenePtr.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\scene\Scene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\scene\SceneManager.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\scene\TitleScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\world\IWorld.h">
+      <Filter>ソース ファイル\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\world\World.h">
+      <Filter>ソース ファイル\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\world\WorldActor.h">
+      <Filter>ソース ファイル\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\Actor.h">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\ActorManager.h">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\ActorPtr.h">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Input\KeyBoard.h">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Input\Mouse.h">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Graphic\Shape\Line.h">
+      <Filter>ソース ファイル\Graphic\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\UI.h">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Graphic\Texture\Font.h">
+      <Filter>ソース ファイル\Graphic\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\Stage.h">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Graphic\Rgr\OctreeUser.h">
+      <Filter>ソース ファイル\Graphic\Rgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Graphic\Rgr\OctreeLoader.h">
+      <Filter>ソース ファイル\Graphic\Rgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\Collision.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\Thread.h">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\ThreadWeb.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Input\GamePad.h">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Input\Input.h">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\EnemyAI\EnemyAI.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\EnemyAI\FirstAI.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\EnemyAI\SecondAI.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\EnemyAI\TherdAI.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\Base.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Math\V3Calculation.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\PlayerAction\Action\AirCurlAction.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\PlayerAction\Action\DangleAction.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\PlayerAction\Action\GroundCurlAction.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\PlayerAction\Action\HoverAction.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\PlayerAction\Action\JumpAction.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\PlayerAction\Action\NormalAction.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\PlayerAction\Action\RewindAction.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\PlayerAction\Action\StepAction.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\PlayerAction\Action\ThreadAction.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\PlayerAction\PlayerActionManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\PlayerAction\PlayerActionPtr.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\PlayerAction\PlayerAction.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\PlayerAction\Action\ThreadWebAction.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\ThreadBullet.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\ThreadEffect.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\ThreadParamter.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Actor\CrystalCenter.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\scene\DemoScene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\scene\ResultScene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Actor\Player.cpp">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\Camera\Camera.cpp">
+      <Filter>ソース ファイル\Actor\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Graphic\Shader\LoadTexture.cpp">
+      <Filter>ソース ファイル\Graphic\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Graphic\Shader\Shader.cpp">
+      <Filter>ソース ファイル\Graphic\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Graphic\Animation\Animation.cpp">
+      <Filter>ソース ファイル\Graphic\RgrA</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Graphic\Animation\AnimUser.cpp">
+      <Filter>ソース ファイル\Graphic\RgrA</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Graphic\Animation\RgrALoader.cpp">
+      <Filter>ソース ファイル\Graphic\RgrA</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Graphic\Rgr\Mesh.cpp">
+      <Filter>ソース ファイル\Graphic\Rgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Graphic\Rgr\MeshUser.cpp">
+      <Filter>ソース ファイル\Graphic\Rgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Graphic\Rgr\RgrLoader.cpp">
+      <Filter>ソース ファイル\Graphic\Rgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Graphic\Texture\Texture.cpp">
+      <Filter>ソース ファイル\Graphic\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Graphic\Graphic.cpp">
+      <Filter>ソース ファイル\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Audio\Audio.cpp">
+      <Filter>ソース ファイル\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Audio\Sound.cpp">
+      <Filter>ソース ファイル\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Math\Converter.cpp">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Math\MathUtility.cpp">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Math\Matrix4.cpp">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Math\MatrixUtility.cpp">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Math\Quaternion.cpp">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Math\Vector2.cpp">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Math\Vector2Utility.cpp">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Math\Vector3.cpp">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Math\Vector3Utility.cpp">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Other\D3D11User.cpp">
+      <Filter>ソース ファイル\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\scene\GamePlayScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\scene\SceneManager.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\scene\TitleScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\world\World.cpp">
+      <Filter>ソース ファイル\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\world\WorldActor.cpp">
+      <Filter>ソース ファイル\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\Actor.cpp">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\ActorManager.cpp">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Input\KeyBoard.cpp">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Input\Mouse.cpp">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Graphic\Shape\Line.cpp">
+      <Filter>ソース ファイル\Graphic\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\UI.cpp">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Graphic\Texture\Font.cpp">
+      <Filter>ソース ファイル\Graphic\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\Stage.cpp">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Graphic\Rgr\OctreeUser.cpp">
+      <Filter>ソース ファイル\Graphic\Rgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Graphic\Rgr\OctreeLoader.cpp">
+      <Filter>ソース ファイル\Graphic\Rgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\Collision.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\Thread.cpp">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\ThreadWeb.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Input\GamePad.cpp">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Input\Input.cpp">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\EnemyAI\FirstAI.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\EnemyAI\SecondAI.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\EnemyAI\TherdAI.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\Base.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Math\V3Calculation.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\PlayerAction\Action\AirCurlAction.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\PlayerAction\Action\DangleAction.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\PlayerAction\Action\GroundCurlAction.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\PlayerAction\Action\HoverAction.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\PlayerAction\Action\JumpAction.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\PlayerAction\Action\NormalAction.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\PlayerAction\Action\RewindAction.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\PlayerAction\Action\StepAction.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\PlayerAction\Action\ThreadAction.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\PlayerAction\PlayerActionManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\PlayerAction\PlayerAction.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\PlayerAction\Action\ThreadWebAction.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\ThreadBullet.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\ThreadEffect.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actor\CrystalCenter.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\scene\DemoScene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\scene\ResultScene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shader\hlsl\fbxModelShader.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\hlsl\TextureShader.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\hlsl\FontShader.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\hlsl\LineShader.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\hlsl\SphereShader.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\hlsl\CubeShader.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\hlsl\StageShader.hlsl" />
+    <FxCompile Include="Shader\hlsl\ThreadEffectShader.hlsl" />
+    <FxCompile Include="Shader\hlsl\CrystalShader.hlsl" />
+  </ItemGroup>
+</Project>
